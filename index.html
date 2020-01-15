@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>YouTube Player</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" rel="stylesheet" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<i class="fa fa-youtube-play fa-2x logo" aria-hidden="true"></i><span id="logo-text">YouTube</span>
+		<input type="text" placeholder="Search..."> 
+		<i class="fa fa-keyboard-o keyboard" aria-hidden="true"></i> 
+		<i class="fa fa-search search" aria-hidden="true"></i>
+		<i class="fa fa-bell fa-lg bell" aria-hidden="true"></i>
+		<i class="fa fa-user-circle fa-lg user" aria-hidden="true"></i>
+	</header>
+
+	<main>
+		<aside>
+			<div class="recommended-video">
+				<img src="./assets/v-1.png">
+				<div class="infos-recommended-video">
+					<p>Mr. Blue Sky</p>
+					<p class="channel">ELO</p>
+				</div>
+			</div>
+			<div class="recommended-video">
+				<img src="./assets/v-5.png">
+				<div class="infos-recommended-video">
+					<p>a-ha Take On Me</p>
+					<p class="channel">a-ha</p>
+				</div>	
+			</div>
+			<div class="recommended-video">
+				<img src="./assets/v-4.png">
+				<div class="infos-recommended-video">
+					<p>Gotye - Somebody That I Used To Know</p>
+					<p class="channel">gotyemusic</p>
+				</div>
+			</div>
+			<div class="recommended-video">
+				<img src="./assets/v-3.png">
+				<div class="infos-recommended-video">
+					<p>Breakbot - Baby I'm Yours</p>
+					<p class="channel">Ed Banger Records</p>
+				</div>
+			</div>
+			<div class="recommended-video">
+				<img src="./assets/v-2.png">
+				<div class="infos-recommended-video">
+					<p>Manuel - Gas Gas Gas</p>
+					<p class="channel">musoforlyf</p>
+				</div>
+			</div>
+		</aside>
+
+		<section id="video">
+			<iframe
+			src="https://www.youtube.com/embed/VOIm3aVZ5q8" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+			</iframe>
+			
+			<article>
+				<p id="tags">#RickAstley #NeverGonnaGiveYouUp #DancePop</p>
+				<p id="title">Rick Astley - Never Gonna Give You Up (Video)</p>
+				<div id="info">
+					<p id="views">640.556.790 views • Oct 25, 2009</p>
+					<i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i> <span class="infos-view">4,5M</span>
+					<i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i> <span class="infos-view">183K</span>
+					<i class="fa fa-share fa-lg" aria-hidden="true"></i> <span class="infos-view">Share</span>
+					<i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
+				</div>
+				<hr>
+				<div id="about">
+					<i class="fa fa-user-circle fa-3x" aria-hidden="true"></i>
+					<div id="description">
+						<p><strong>Official Rick Astley</strong> <br><br>
+						Rick Astley's official music video for “Never Gonna Give You Up” <br>
+						Listen to Rick Astley: <a href="https://RickAstley.lnk.to/_listenYD">https://RickAstley.lnk.to/_listenYD</a><br>
+						The real video of Rick Astley didn't work, so I had to put other video here.</p><br>
+						<p id="show-more"><strong>Show more</strong></p>
+					</div>				
+					<button id="subscribe">Subscribe</button>
+				</div>
+				<hr>
+			</article>
+	
+			<article style="margin-top: 5%;">
+				<div class="comment">
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<div class="answer">
+						<p>User 42 <span class="date">1 month ago</span></p>
+						<p>Let’s put the meme aside, this is actually a banging song.</p>
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i> 100K
+						<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="comment">
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<div class="answer">
+						<p>User 2 <span class="date">1 month ago</span></p>
+						<p>he looks like he’s 13 but sounds like he’s 30</p>
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i> 100K
+						<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="comment">
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<div class="answer">
+						<p>User 51 <span class="date">1 month ago</span></p>
+						<p>Dislikes are the kids who didn’t get free Fortnite vbucks generator</p>
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i> 100K
+						<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+					</div>					
+				</div>
+				<div class="comment">
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<div class="answer">
+						<p>User 69 <span class="date">1 month ago</span></p>
+						<p>We got Rickrolled so many times that we don't even care anymore</p>
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i> 100K
+						<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="comment">
+					<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+					<div class="answer">
+						<p>User 71 <span class="date">1 month ago</span></p>
+						<p>Wait, this is not the link to avengers endgame full movie</p>
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i> 100K
+						<i class="fa fa-thumbs-down" aria-hidden="true"></i>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
